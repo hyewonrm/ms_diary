@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title> The Cutest Diary - MS</title>
+        <link rel="stylesheet" href="tmxkdlf.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <main>
+            <h1>The Cutest Diary <br>- MS(my secret)<br>당신의 하루는 어떤가요...?</h1>
+            <h3>다 놀았니? 이제 할일을 하자.<br></h3>
+            <img src="loopy.jpg">
+            <br><br>
+
+
+            <label for="todaydate">날짜를 선택하세요.</label>
+            <input type="date" id="todaydate" name="todaydate">
+
+            <label for="todaydiary"><br><br>오늘 당신의 감정을 써주세요.<br></label>
+            <textarea name="todaydiary" id="todaydiary"></textarea>
+
+            <label for="todayimage"><br><br>오늘 하루의 대표 이미지를 삽입해주세요.<br></label>
+            <input type="file" id="todayimage">
+
+            <br><br>
+            <button name="save" id="save">저장으로 오늘을 마무리하기.</button>
+        </main>
+        
+        <aside>
+            
+            <div id="diaryList"></div>
+        </aside>
+
+    <script src="main1.js"></script>
+    </body>
+
+
+</html>
